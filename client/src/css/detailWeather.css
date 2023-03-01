@@ -1,0 +1,36 @@
+.detailHead
+{
+    padding: 30px;
+    color: white;
+    text-shadow: #000 1px 0 10px;
+
+}
+body
+{
+    background-image: url('../../public/images/backClouds.jpg');
+    background-size: cover;     
+}
+.allDays
+{
+  display: flex;
+}
+.day
+{
+  height: 250px;
+  width: 250px;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 30px;
+  font-size: 20px;
+  background-color: rgba(255,255,255,.5);
+}
+.searchMoreBtn
+{
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 1385px;
+}
