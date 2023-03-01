@@ -4,7 +4,7 @@ import "../css/mainPage.css";
 
 export default function MainPage() {
   const api = "https://api.openweathermap.org/data/2.5/";
-  const key = "e7a4f648822f56d05391fcd7a1d430bc";
+  const key = "";
   const [latitude, setLatitude] = useState("");
   const [longitude, setLongitude] = useState("");
   const [city, setCity] = useState("");
